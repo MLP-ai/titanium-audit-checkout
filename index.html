@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free 7-Point Business Audit | Titanium Suite</title>
+  <meta name="description" content="Get your FREE 7-Point Business Audit. Discover exactly where your funnel is leaking money — and how to fix it. Value: $497. Yours free.">
+  <style>
+    :root {
+      --bg-primary: #0a0f1e;
+      --bg-secondary: #111827;
+      --bg-card: #1f2937;
+      --accent-cyan: #00d9ff;
+      --accent-green: #10b981;
+      --accent-gold: #fbbf24;
+      --accent-red: #ef4444;
+      --text-primary: #ffffff;
+      --text-secondary: #e5e7eb;
+      --text-muted: #9ca3af;
+      --border: #374151;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Header */
+    header {
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-gold));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Hero */
+    .hero {
+      padding: 4rem 0 3rem;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      background: rgba(16, 185, 129, 0.2);
+      color: var(--accent-green);
+      padding: 0.5rem 1rem;
+      border-radius: 50px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+      background: linear-gradient(135deg, #ffffff 0%, var(--accent-cyan) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subheadline {
+      font-size: 1.25rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+
+    .value-prop {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--bg-card);
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+
+    .value-prop .original {
+      text-decoration: line-through;
+      color: var(--text-muted);
+    }
+
+    .value-prop .free {
+      color: var(--accent-green);
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+
+    /* Form Section */
+    .form-section {
+      background: var(--bg-secondary);
+      padding: 3rem 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .form-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2.5rem;
+    }
+
+    .form-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    .form-subtitle {
+      color: var(--text-muted);
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 0.875rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="url"] {
+      width: 100%;
+      padding: 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-size: 1rem;
+      transition: border-color 0.2s;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus {
+      outline: none;
+      border-color: var(--accent-cyan);
+    }
+
+    input::placeholder {
+      color: var(--text-muted);
+    }
+
+    .cta-button {
+      display: block;
+      width: 100%;
+      padding: 1.25rem 2rem;
+      background: linear-gradient(135deg, var(--accent-gold), #f59e0b);
+      color: #0a0f1e;
+      font-size: 1.25rem;
+      font-weight: 800;
+      text-align: center;
+      text-decoration: none;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      margin-top: 1rem;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(251, 191, 36, 0.3);
+    }
+
+    .secure-note {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    /* What's Included */
+    .features {
+      padding: 4rem 0;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .section-subtitle {
+      color: var(--text-muted);
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 3rem;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .feature-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent-cyan);
+    }
+
+    .feature-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      background: var(--accent-cyan);
+      color: var(--bg-primary);
+      font-weight: 800;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .feature-title {
+      font-size: 1.125rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature-desc {
+      color: var(--text-muted);
+      font-size: 0.9375rem;
+    }
+
+    /* Deliverables */
+    .deliverables {
+      background: var(--bg-secondary);
+      padding: 4rem 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .deliverable-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .deliverable-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .deliverable-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .deliverable-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .deliverable-desc {
+      color: var(--text-muted);
+    }
+
+    /* Social Proof */
+    .social-proof {
+      padding: 4rem 0;
+      text-align: center;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 4rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 3rem;
+      font-weight: 900;
+      color: var(--accent-cyan);
+    }
+
+    .stat-label {
+      color: var(--text-muted);
+      font-size: 0.9375rem;
+    }
+
+    /* FAQ */
+    .faq {
+      background: var(--bg-secondary);
+      padding: 4rem 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .faq-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .faq-question {
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      color: var(--accent-cyan);
+    }
+
+    .faq-answer {
+      color: var(--text-secondary);
+    }
+
+    /* Final CTA */
+    .final-cta {
+      padding: 4rem 0;
+      text-align: center;
+    }
+
+    .urgency {
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: var(--accent-red);
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      display: inline-block;
+      margin-bottom: 2rem;
+      font-weight: 600;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border);
+      padding: 2rem 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .hero {
+        padding: 2rem 0;
+      }
+
+      .form-container {
+        padding: 1.5rem;
+      }
+
+      .stats {
+        gap: 2rem;
+      }
+
+      .stat-number {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">⚡ TITANIUM SUITE</div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow">🔥 Limited Time: Free Audit</span>
+      <h1>Get Your FREE 7-Point Business Audit</h1>
+      <p class="subheadline">Discover exactly where your funnel is leaking money — and get a step-by-step roadmap to fix it in the next 30 days</p>
+      
+      <div class="value-prop">
+        <span class="original">Value: $497</span>
+        <span>→</span>
+        <span class="free">YOURS FREE</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section class="form-section">
+    <div class="container">
+      <div class="form-container">
+        <h2 class="form-title">Claim Your Free Audit</h2>
+        <p class="form-subtitle">Enter your details below. I'll deliver your audit within 48-72 hours.</p>
+        
+        <form action="https://mintbird.com/checkout" method="POST">
+          <!-- Replace with your actual MintBird form endpoint -->
+          <div class="form-group">
+            <label for="firstName">First Name *</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="website">Business Website *</label>
+            <input type="url" id="website" name="website" placeholder="https://yourbusiness.com" required>
+          </div>
+
+          <button type="submit" class="cta-button">Get My Free Audit →</button>
+          
+          <div class="secure-note">
+            <span>🔒</span>
+            <span>Your information is secure. Unsubscribe anytime.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's Included -->
+  <section class="features">
+    <div class="container">
+      <h2 class="section-title">What You'll Discover</h2>
+      <p class="section-subtitle">A comprehensive analysis of your business across 7 critical areas that directly impact your revenue</p>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-number">1</div>
+          <h3 class="feature-title">Funnel Architecture Review</h3>
+          <p class="feature-desc">Map your current funnel flow, identify drop-off points, and spot the conversion leaks costing you sales.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-number">2</div>
+          <h3 class="feature-title">Email Sequence Analysis</h3>
+          <p class="feature-desc">Review your existing sequences, check open/click rates, and identify re-engagement opportunities.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-number">3</div>
+          <h3 class="feature-title">Traffic Source Assessment</h3>
+          <p class="feature-desc">Analyze current traffic, find untapped channels, and get budget allocation recommendations.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-number">4</div>
+          <h3 class="feature-title">Offer Positioning Check</h3>
+          <p class="feature-desc">Ensure your value proposition is crystal clear, pricing is optimized, and you stand out from competitors.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-number">5</div>
+          <h3 class="feature-title">Automation Audit</h3>
+          <p class="feature-desc">Discover workflow inefficiencies, integration gaps, and opportunities to automate manual tasks.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-number">6</div>
+          <h3 class="feature-title">Content Performance Review</h3>
+          <p class="feature-desc">Identify your best performing content, spot gaps, and find repurposing opportunities.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-number">7</div>
+          <h3 class="feature-title">Revenue Optimization Scan</h3>
+          <p class="feature-desc">Uncover upsell/cross-sell opportunities, pricing optimizations, and lifetime value maximizers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deliverables -->
+  <section class="deliverables">
+    <div class="container">
+      <h2 class="section-title">What You'll Receive</h2>
+      <p class="section-subtitle">Everything you need to implement the fixes and start seeing results</p>
+      
+      <div class="deliverable-cards">
+        <div class="deliverable-card">
+          <div class="deliverable-icon">📄</div>
+          <h3 class="deliverable-title">Detailed PDF Report</h3>
+          <p class="deliverable-desc">A comprehensive breakdown of all 7 audit points with specific recommendations</p>
+        </div>
+
+        <div class="deliverable-card">
+          <div class="deliverable-icon">🎥</div>
+          <h3 class="deliverable-title">Loom Video Walkthrough</h3>
+          <p class="deliverable-desc">Personal video explaining my findings and priority recommendations</p>
+        </div>
+
+        <div class="deliverable-card">
+          <div class="deliverable-icon">📋</div>
+          <h3 class="deliverable-title">Action Checklist</h3>
+          <p class="deliverable-desc">Step-by-step implementation roadmap prioritized by impact</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof -->
+  <section class="social-proof">
+    <div class="container">
+      <h2 class="section-title">Businesses Transformed</h2>
+      
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-number">500+</div>
+          <div class="stat-label">Audits Completed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">$2M+</div>
+          <div class="stat-label">Revenue Recovered</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">30%</div>
+          <div class="stat-label">Avg. Conversion Lift</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      
+      <div class="faq-item">
+        <div class="faq-question">How long does it take to get my audit?</div>
+        <div class="faq-answer">I personally review every business. You'll receive your audit within 48-72 hours, usually sooner. Quality takes time, and I don't rush the analysis.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Is this really free? What's the catch?</div>
+        <div class="faq-answer">No catch. The audit is 100% free. I do this because many audit recipients hire me to implement the recommendations. But there's no obligation whatsoever.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What if I don't have a website yet?</div>
+        <div class="faq-answer">Enter your social media profile, landing page, or any online presence you have. If you're pre-launch, mention that in the website field and I'll audit your planned approach.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Will you try to sell me something?</div>
+        <div class="faq-answer">At the end of your audit, I'll mention that I can help implement the fixes if you want. That's it. No hard sell, no pressure, no annoying follow-ups.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta">
+    <div class="container">
+      <div class="urgency">⚠️ Only accepting 20 audits this week</div>
+      <h2 class="section-title">Ready to Stop Leaking Revenue?</h2>
+      <p class="section-subtitle">Join 500+ businesses who discovered exactly where their funnel was bleeding money</p>
+      <a href="#" class="cta-button" onclick="document.querySelector('.form-section').scrollIntoView({behavior: 'smooth'}); return false;">Get My Free Audit Now →</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Titanium Suite. All rights reserved.</p>
+      <p style="margin-top: 0.5rem;">Your information is secure and will never be shared.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
